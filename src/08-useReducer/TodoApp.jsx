@@ -10,7 +10,7 @@ const init = () => {
 }
 
 export const TodoApp = () => {
-  // crear un componente que se llame useTodo. Este debería exponer ciertas cosas
+  // crear un componente que se llame useTodos. Este debería exponer ciertas cosas
   // exponer los: todos, ocupariamos el handleDeletetodo, handleToggleTodo, y el handleNewTodo
   const { todos, todosCount, pendingTodos, handleDeleteTodo, handleToggleTodo, handleNewTodo } = useTodos();
 
